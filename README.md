@@ -8,15 +8,16 @@
 
 <h3>On getting error "The 'sklearn' PyPI package is deprecated, use 'scikit-learn' rather than 'sklearn' for pip commands."</h3>
 Install scikit-learn
-```bash
+
+```
 pip install scikit-learn
 ```
 Set the environment variable to allow deprecated sklearn package installation:
-```bash
+```
 SET SKLEARN_ALLOW_DEPRECATED_SKLEARN_PACKAGE_INSTALL=True
 ```
 Reinstall the module
-```bash
+```
 pip install git+https://github.com/sushil79g/Nepali_nlp.git
 ```
 
